@@ -1,7 +1,7 @@
 """
 Module 2 — Lesson 1: Variables & Data Types
-Student: [your name]
-Date: [date]
+Student: Sapnu, Charlotte G.
+Date: 
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
@@ -13,7 +13,7 @@ teaching a friend who's never coded before)
 ============================================
 KEY VOCABULARY
 ============================================
-- variable:
+- variable: 
 - data type:
 - int:
 - float:
