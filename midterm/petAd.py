@@ -2,15 +2,14 @@
 Midterm Practical Exam — Pet Adoption Records Manager
 Student: Sapnu, Charlotte G.
 """
-pets_list = []
 
+pets_list = []
 
 def add_pet(name, type, status):
     while True:
         name = input("Name of the Pet:")
         type = input("Type of the Pe:")
         status = input("Type the Status of the Pet:")
-
         if name and type and status != "":
             pets_list.append({"name": name, "type": type, "status" : status})
             print("Added to the lists!")
@@ -24,6 +23,14 @@ def add_pet(name, type, status):
 def view_pets(pets_list):
     for item in pets_list:
         print(item)
+
+def count_available_avail():
+     while True:
+          choice = input("Available or Adopted? : ")
+          if choice == "Available":
+               print()
+          elif choice == "Adopted":
+               print()
 
 def count_available_adopted(status):
     for item in pets_list:
@@ -43,10 +50,10 @@ def display_menu():
     for item in pets_list:
         print(item)
 
-def main ():
-     print("Success")
 
-if __name__ == "__main__":
-    main()
+add_pet()
+view_pets()
+count_available_adopted()
+find_pet()
+display_menu()
 
-    
