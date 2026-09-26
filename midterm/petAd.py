@@ -20,7 +20,7 @@ def add_pet(name, type, status):
         elif name or type or status == 0:
                     pets_list.append({"name": name, "type": type, "status" : status})
                     print("No numbers.")
-        
+
 def view_pets(pets_list):
     for item in pets_list:
         print(item)
@@ -32,12 +32,21 @@ def count_available_adopted(status):
         elif status == "Adopted":
             print(item)
         
-def find_pet(name, tyoe, status):
-    pass
-
+def find_pet(name):
+    for item in pets_list:
+         if name == name:
+              print(pets_list)
+         else:
+              print("Not Found")
+        
 def display_menu():
     for item in pets_list:
         print(item)
 
+def main ():
+     print("Success")
+
 if __name__ == "__main__":
     main()
+
+    
