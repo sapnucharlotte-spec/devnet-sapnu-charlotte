@@ -47,13 +47,20 @@ def find_pet(name):
               print("Not Found")
         
 def display_menu():
-    for item in pets_list:
-        print(item)
+  while True:
+        print(f" Pet Adoption ")
+        print("1. Add a pet\n2. View all pets\n3. Count available vs adopted\n4. Find a pet by name\n5. Exit")
+        choice = input("Choose an option [1-5]:")
 
-
-add_pet()
-view_pets()
-count_available_adopted()
-find_pet()
+        if choice == 1:
+            add_pet()
+        elif choice == 2:
+            view_pets()
+        elif choice == 3:
+            count_available_adopted
+        elif choice == 4:
+            find_pet()
+        elif choice == 5:
+            return
+        
 display_menu()
-
