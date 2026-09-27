@@ -1,7 +1,7 @@
 # Module 1 — Git & GitHub
 
 **Student:** Sapnu, Charlotte G.
-**Date:** September 24, 2026
+**Date:** September 27, 2026
 
 ---
 
@@ -26,8 +26,19 @@ So Git is a command tool that helps the developers to manipulate the code's chan
 
 [Describe, step by step, a real branch → commit → push → PR you did. Include the actual commands you used.]
 
+Yesterday, during our midterm activity, I first configured my Git username and email using `git config --local user.name "sapnucharlotte-spec"` and `git config --local user.email "sapnucharlotte@gmail.com"`. After that, I checked my existing Git remote using `git remote`, then added my GitHub repository using `git remote add devnet-sapnu-charlotte https://github.com/sapnucharlotte-spec/devnet-sapnu-charlotte`. I verified the remote using `git remote -v`. Next, I created a new branch called `midterm` and switched to it using `git switch -c midterm`. After making my changes to `petAd.py`, I staged the file with `git add petAd.py`. I then committed my changes using `git commit -m "up5"`. Finally, I pushed my `midterm` branch to GitHub using `git push`. After pushing the branch, I went to GitHub and created a Pull Request for my changes.
+
+
 ```
-# paste your actual commands here
+git config --local user.name "sapnucharlotte-spec"
+git config --local user.email "sapnucharlotte@gmail.com"
+git remote
+git remote add devnet-sapnu-charlotte https://github.com/sapnucharlotte-spec/devnet-sapnu-charlotte
+git remote -v
+git switch -c midterm
+git add petAd.py
+git commit -m "up5"
+git push
 ```
 
 ---
@@ -36,8 +47,13 @@ So Git is a command tool that helps the developers to manipulate the code's chan
 
 [What tripped you up? A confusing error message, committing to the wrong branch, a merge conflict — explain it so a classmate reading this avoids the same mistake.]
 
+What confused me was when I was creating a new branch, my computer detected the GitHub repository, but I was not sure why Git was not detecting it the way I expected. At first, I was confused about whether my branch was connected to the correct GitHub repository. I learned that I should always check the repository and remote before creating a branch or pushing my changes. This helped me understand that I need to check my Git status and remote information first so I know that I am working in the correct repository and branch.
+
 ---
 
 ## How this connects to something else
 
 [Optional: how does version control relate to anything else you've learned or used before?]
+
+Version control connects to programming because it helps me keep track of the changes I make to my code. It is also useful when working with other people because everyone can work on their own branch without affecting the main project. I learned that GitHub makes it easier to share code, review changes, and keep the project organized even though I'm still confused with git command it's very helful to the developers.
+
