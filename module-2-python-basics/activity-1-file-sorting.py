@@ -39,7 +39,8 @@ So I’m going to try to fix this by having my script organize files in a folder
 ============================================
 KEY VOCABULARY
 ============================================
-- os module: A Python module used to interact with the operating system, such as creating folders, checking paths, and listing files.
+- os module: A Python module used to interact with the operating system, such as creating folders, 
+checking paths, and listing files.
 - shutil module: Used to manage files and folders, such as moving, copying, and deleting files.
 - file path: The location of a file or folder on a computer. 
 - directory:  A folder that contains files or other folders. 
@@ -97,7 +98,9 @@ A MISTAKE I MADE (or one I want to avoid)
 exist, a file that got overwritten, something that didn't work the
 way you expected at first]
 
-One mistake I made was entering a folder name instead of the actual file path. For example, when I typed folder or user_path, the program said that the path did not exist because Python treated them as actual folder names. I learned that I need to enter the correct path to the folder I want to organize. I also learned that my program does not show a message when it finishes, so I added a success message to make it clearer.
+One mistake I made was entering a folder name instead of the actual file path. 
+For example, when I typed folder or user_path, the program said that the path did not exist because Python treated them as actual folder names. I learned that I need to enter the correct path to the folder I want to organize. 
+I also learned that my program does not show a message when it finishes, so I added a success message to make it clearer.
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
@@ -106,6 +109,8 @@ HOW THIS CONNECTS TO SOMETHING ELSE
 think about your own gradebook/attendance workflow — could something
 like this save you time there?]
 
-This connects to real automation scripts because the program does repetitive work automatically instead of making the user organize every file manually. For example, a similar idea could be used for a gradebook or attendance workflow. A script could automatically organize student files, separate documents by class, or sort attendance records into different folders. This could save time when there are many files to organize. 
+This connects to real automation scripts because the program does repetitive work automatically instead of making the user organize every file manually. 
+Let's just say, a similar idea could be used for a gradebook or attendance workflow. A script could automatically organize student files, separate documents by class, or sort attendance records into different folders. 
+This could save time when there are many files to organize. 
 
 """
