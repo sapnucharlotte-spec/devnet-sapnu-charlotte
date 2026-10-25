@@ -15,14 +15,14 @@ while True:
         name = data["name"].capitalize()
         height = data["height"]
         weight = data["weight"]
-        skill = data["abilities"][0]["ability"]["name"]
+        ability = data["abilities"][0]["ability"]["name"]
 
         print("WHO'S THAT POKEMON?")
         print("Guess the name of the Pokemon")
         print("You have 3 attempts\n")
         print(f"Height: {height}")
         print(f"Weight: {weight}")
-        print(f"Skill: {skill}\n")
+        print(f"Ability: {ability}\n")
 
 
         for attempt in range(1, 4):
